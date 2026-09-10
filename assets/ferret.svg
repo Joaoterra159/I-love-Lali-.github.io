@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 240">
+ <defs><filter id="s" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".18"/></filter></defs>
+ <g filter="url(#s)" stroke="#4b352d" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- long ferret body -->
+  <path fill="#5b4135" d="M93 139c28-20 75-23 105-7 25 14 33 39 20 58-14 21-51 25-88 16-28-7-54-23-58-43-2-10 5-18 21-24z"/>
+  <path fill="#5b4135" d="M191 177c32 3 56 17 62 34 3 9-4 15-13 10-17-10-31-12-58-10z"/>
+  <!-- ears -->
+  <circle fill="#5b4135" cx="76" cy="70" r="25"/><circle fill="#5b4135" cx="157" cy="67" r="25"/>
+  <circle fill="#d99c92" stroke="none" cx="76" cy="70" r="12"/><circle fill="#d99c92" stroke="none" cx="157" cy="67" r="12"/>
+  <!-- head -->
+  <path fill="#f1e3d1" d="M54 81c6-36 36-59 72-57 38 2 67 30 64 68-3 40-31 72-71 74-41 2-72-31-65-85z"/>
+  <!-- brown cap -->
+  <path fill="#65483a" stroke="none" d="M57 82c5-38 35-61 70-58 31 2 56 20 63 48-17-12-36-15-53-11-13 3-21 9-27 18-8-8-17-13-30-13-8 0-16 2-23 5z"/>
+  <!-- eye mask like reference -->
+  <path fill="#8a6958" stroke="none" d="M65 90c9-15 24-22 38-17 9 3 14 11 13 20-2 16-18 28-35 23-15-4-23-15-16-26zM126 88c8-15 24-22 39-17 15 5 21 18 14 31-8 15-25 22-40 15-13-6-19-17-13-29z"/>
+  <!-- eyes -->
+  <ellipse fill="#171313" cx="91" cy="91" rx="17" ry="21"/><ellipse fill="#171313" cx="153" cy="89" rx="17" ry="21"/>
+  <ellipse fill="#fff" stroke="none" cx="85" cy="83" rx="6" ry="8"/><circle fill="#fff" stroke="none" cx="97" cy="99" r="3.5"/>
+  <ellipse fill="#fff" stroke="none" cx="147" cy="81" rx="6" ry="8"/><circle fill="#fff" stroke="none" cx="159" cy="97" r="3.5"/>
+  <!-- muzzle and nose -->
+  <ellipse fill="#f8eddf" stroke="none" cx="121" cy="119" rx="34" ry="24"/>
+  <path fill="#5b4035" d="M109 112c7-6 17-6 24 0-1 10-5 14-12 14s-11-4-12-14z"/>
+  <path fill="none" d="M121 126c0 8-7 13-14 13M121 126c0 8 7 13 14 13"/>
+  <!-- chest -->
+  <path fill="#efe0cd" stroke="none" d="M92 149c15 10 42 11 59-1 2 17-2 35-11 52-15 1-31-3-44-10-8-14-10-28-4-41z"/>
+  <!-- paws -->
+  <ellipse fill="#5b4135" cx="104" cy="201" rx="22" ry="13"/><ellipse fill="#5b4135" cx="154" cy="203" rx="22" ry="13"/>
+  <!-- whiskers -->
+  <path fill="none" stroke="#80675b" stroke-width="2.4" d="M91 124l-30 2M92 131l-29 10M151 123l30 1M149 131l29 9"/>
+ </g>
+</svg>

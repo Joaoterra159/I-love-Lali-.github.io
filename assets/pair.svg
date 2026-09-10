@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300">
+ <defs><filter id="s"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-opacity=".18"/></filter></defs>
+ <g filter="url(#s)" stroke-linecap="round" stroke-linejoin="round">
+  <!-- bunny Lali -->
+  <g stroke="#72565c" stroke-width="5">
+   <ellipse fill="#fffaf4" cx="128" cy="68" rx="25" ry="62" transform="rotate(-10 128 68)"/><ellipse fill="#fffaf4" cx="184" cy="70" rx="25" ry="62" transform="rotate(9 184 70)"/>
+   <ellipse fill="#efb6bf" stroke="none" cx="130" cy="69" rx="10" ry="41" transform="rotate(-10 130 69)"/><ellipse fill="#efb6bf" stroke="none" cx="182" cy="70" rx="10" ry="41" transform="rotate(9 182 70)"/>
+   <ellipse fill="#fffaf4" cx="158" cy="170" rx="79" ry="82"/>
+   <ellipse fill="#383033" cx="132" cy="154" rx="8" ry="11"/><ellipse fill="#383033" cx="184" cy="154" rx="8" ry="11"/><circle fill="#fff" stroke="none" cx="129" cy="150" r="3"/><circle fill="#fff" stroke="none" cx="181" cy="150" r="3"/>
+   <path fill="#e597a5" d="M151 174c5-4 10-4 15 0-2 7-12 7-15 0z"/><path fill="none" d="M158 181c-2 8-8 11-15 11M158 181c2 8 8 11 15 11"/>
+   <ellipse fill="#f3b3be" stroke="none" cx="112" cy="178" rx="14" ry="8"/><ellipse fill="#f3b3be" stroke="none" cx="203" cy="178" rx="14" ry="8"/>
+   <path fill="#fffaf4" d="M207 188c38 6 61 25 69 45-16 9-35 6-51-7-12-10-18-22-18-38z"/>
+  </g>
+  <!-- ferret Juju, leaning into bunny -->
+  <g transform="translate(210 25) scale(.9)" stroke="#4b352d" stroke-width="4.5">
+   <path fill="#5b4135" d="M80 145c31-23 85-22 116-3 27 17 30 49 7 67-26 20-79 15-111-4-29-17-37-42-12-60z"/>
+   <path fill="#5b4135" d="M186 186c34 4 59 17 65 34 3 9-5 15-14 9-18-10-33-12-61-10z"/>
+   <circle fill="#5b4135" cx="76" cy="74" r="25"/><circle fill="#5b4135" cx="157" cy="71" r="25"/><circle fill="#d99c92" stroke="none" cx="76" cy="74" r="12"/><circle fill="#d99c92" stroke="none" cx="157" cy="71" r="12"/>
+   <path fill="#f1e3d1" d="M54 85c6-36 36-59 72-57 38 2 67 30 64 68-3 40-31 72-71 74-41 2-72-31-65-85z"/>
+   <path fill="#65483a" stroke="none" d="M57 86c5-38 35-61 70-58 31 2 56 20 63 48-17-12-36-15-53-11-13 3-21 9-27 18-8-8-17-13-30-13-8 0-16 2-23 5z"/>
+   <path fill="#8a6958" stroke="none" d="M65 94c9-15 24-22 38-17 9 3 14 11 13 20-2 16-18 28-35 23-15-4-23-15-16-26zM126 92c8-15 24-22 39-17 15 5 21 18 14 31-8 15-25 22-40 15-13-6-19-17-13-29z"/>
+   <ellipse fill="#171313" cx="91" cy="95" rx="17" ry="21"/><ellipse fill="#171313" cx="153" cy="93" rx="17" ry="21"/><ellipse fill="#fff" stroke="none" cx="85" cy="87" rx="6" ry="8"/><circle fill="#fff" stroke="none" cx="97" cy="103" r="3.5"/><ellipse fill="#fff" stroke="none" cx="147" cy="85" rx="6" ry="8"/><circle fill="#fff" stroke="none" cx="159" cy="101" r="3.5"/>
+   <ellipse fill="#f8eddf" stroke="none" cx="121" cy="123" rx="34" ry="24"/><path fill="#5b4035" d="M109 116c7-6 17-6 24 0-1 10-5 14-12 14s-11-4-12-14z"/><path fill="none" d="M121 130c0 8-7 13-14 13M121 130c0 8 7 13 14 13"/>
+  </g>
+  <!-- hearts -->
+  <g fill="#d9869c" stroke="none"><path d="M257 50c-10-16-34-7-28 10 5 13 28 26 28 26s23-13 28-26c6-17-18-26-28-10z"/><path d="M245 105c-5-8-17-3-14 5 3 7 14 13 14 13s12-6 14-13c3-8-9-13-14-5z"/></g>
+ </g>
+</svg>
