@@ -1769,3 +1769,37 @@ button:focus-visible,a:focus-visible{outline:3px solid #f3ce68;outline-offset:3p
     line-height:1.30!important;
   }
 }
+
+/* V56 — ajuste fino da carta-coração no mobile */
+@media (max-width: 640px){
+  .modal-card.letter-paper[data-letter="4"] h3,
+  .modal-card.letter-paper[data-letter="4"] p{
+    transform:translateY(48px)!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] h3{
+    max-width:245px!important;
+    font-size:.82rem!important;
+    line-height:1.18!important;
+    margin-bottom:12px!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] p{
+    max-width:275px!important;
+    font-size:.68rem!important;
+    line-height:1.30!important;
+  }
+}
+@media (max-width: 390px){
+  .modal-card.letter-paper[data-letter="4"] h3,
+  .modal-card.letter-paper[data-letter="4"] p{
+    transform:translateY(52px)!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] h3{
+    max-width:228px!important;
+    font-size:.78rem!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] p{
+    max-width:258px!important;
+    font-size:.65rem!important;
+    line-height:1.28!important;
+  }
+}
