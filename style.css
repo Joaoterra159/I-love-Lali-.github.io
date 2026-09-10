@@ -1642,3 +1642,19 @@ button:focus-visible,a:focus-visible{outline:3px solid #f3ce68;outline-offset:3p
     width:100%!important;
   }
 }
+
+/* V52 — ajuste fino do caça #2 na timeline mobile
+   Posicionado no espaço vazio logo acima do cartão de 03/12/2025 (Cinema),
+   conforme marcação do teste em celular. */
+@media (max-width: 760px){
+  #historia .hunt-2{
+    left:8px!important;
+    right:auto!important;
+    top:39.5%!important;
+    bottom:auto!important;
+    transform:none!important;
+    width:142px!important;
+    height:68px!important;
+    z-index:14!important;
+  }
+}
