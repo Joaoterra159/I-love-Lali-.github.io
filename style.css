@@ -1658,3 +1658,16 @@ button:focus-visible,a:focus-visible{outline:3px solid #f3ce68;outline-offset:3p
     z-index:14!important;
   }
 }
+
+/* V54 — remove a pequena sobra/linha visual abaixo do card "Meus olhos" no mobile. */
+@media (max-width: 640px){
+  .eyes-v9-section{
+    overflow:hidden!important;
+  }
+  .eyes-v9{
+    border:0!important;
+    box-shadow:none!important;
+    margin-bottom:0!important;
+    overflow:hidden!important;
+  }
+}
