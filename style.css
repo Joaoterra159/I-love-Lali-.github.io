@@ -1443,3 +1443,42 @@ button:focus-visible,a:focus-visible{outline:3px solid #f3ce68;outline-offset:3p
   object-position:center center!important;
   transform:none!important;
 }
+
+/* V49 — correção global de responsividade no celular
+   Impede posições absolutas da caça (exportadas em px no desktop)
+   de aumentarem a largura visual da página e espremê-la no mobile. */
+@media (max-width: 760px){
+  html, body{
+    width:100%!important;
+    max-width:100%!important;
+    overflow-x:hidden!important;
+  }
+  body{min-width:0!important;}
+  main{
+    width:100%!important;
+    max-width:100%!important;
+    overflow-x:hidden!important;
+  }
+  .hero,
+  .section{
+    width:100%!important;
+    max-width:100%!important;
+    margin-left:0!important;
+    margin-right:0!important;
+  }
+
+  /* Mantém os caças dentro da largura do celular sem alterar a mecânica. */
+  #historia .hunt-1{left:-8px!important;right:auto!important;}
+  #historia .hunt-2{left:44%!important;right:auto!important;}
+  #historia .hunt-3{left:25%!important;right:auto!important;}
+  .photos .hunt-4{left:auto!important;right:8px!important;}
+  #cartas .hunt-11{left:66%!important;right:auto!important;}
+  .world .hunt-5{left:10%!important;right:auto!important;}
+  .constellation .hunt-6{left:auto!important;right:10px!important;}
+  .little-things .hunt-8{left:34%!important;right:auto!important;}
+  .little-things .hunt-9{left:auto!important;right:8px!important;}
+
+  .dock{
+    max-width:calc(100% - 24px)!important;
+  }
+}
