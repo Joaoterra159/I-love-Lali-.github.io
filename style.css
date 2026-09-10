@@ -1803,3 +1803,40 @@ button:focus-visible,a:focus-visible{outline:3px solid #f3ce68;outline-offset:3p
     line-height:1.28!important;
   }
 }
+/* V59 — foto manuscrita final: mostrar a imagem inteira sem cortar a escrita */
+.finale .handwriting{
+  width:min(330px,78%);
+  height:auto;
+  max-height:none;
+  object-fit:contain;
+  object-position:center;
+  margin:18px auto 0;
+}
+@media(max-width:520px){
+  .finale .handwriting{
+    width:88%;
+    height:auto;
+    max-height:none;
+    object-fit:contain;
+    object-position:center;
+  }
+}
+
+/* V60 — foto manuscrita final compacta: bordas vazias recortadas, frase inteira preservada */
+.finale .handwriting{
+  width:min(235px,56%)!important;
+  height:auto!important;
+  max-height:none!important;
+  object-fit:contain!important;
+  object-position:center!important;
+  margin:18px 0 0 auto!important;
+}
+@media(max-width:520px){
+  .finale .handwriting{
+    width:60%!important;
+    height:auto!important;
+    max-height:none!important;
+    object-fit:contain!important;
+    object-position:center!important;
+  }
+}
