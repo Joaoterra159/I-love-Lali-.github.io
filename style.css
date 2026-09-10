@@ -1671,3 +1671,101 @@ button:focus-visible,a:focus-visible{outline:3px solid #f3ce68;outline-offset:3p
     overflow:hidden!important;
   }
 }
+
+/* V55 — correções mobile finais do card dos olhos e da carta-coração */
+@media (max-width: 640px){
+  /* Elimina qualquer franja/faixa residual abaixo do card "Meus olhos". */
+  #olhos.eyes-v9-section{
+    padding-bottom:0!important;
+    margin-bottom:0!important;
+    overflow:hidden!important;
+    background:#17162a!important;
+  }
+  #olhos .eyes-v9{
+    display:block!important;
+    width:100%!important;
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    border-radius:0!important;
+    box-shadow:none!important;
+    outline:0!important;
+    overflow:hidden!important;
+    background:#17162a!important;
+  }
+  #olhos .eyes-v9::after{
+    bottom:-2px!important;
+  }
+  #olhos .eyes-portrait,
+  #olhos .eyes-portrait img{
+    margin:0!important;
+    padding:0!important;
+    border:0!important;
+    outline:0!important;
+  }
+  #olhos .eyes-portrait img{
+    display:block!important;
+  }
+
+  /* No celular, todo o título e o texto da carta ficam dentro da área rosa do coração. */
+  .modal-card.letter-paper[data-letter="4"]{
+    width:96vw!important;
+    max-width:430px!important;
+    min-height:690px!important;
+    max-height:84vh!important;
+    padding:205px 58px 145px!important;
+    overflow:hidden!important;
+    background-position:center center!important;
+    background-size:100% 100%!important;
+    transform:none!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] h3{
+    width:100%!important;
+    max-width:300px!important;
+    margin:0 auto 10px!important;
+    padding:0 4px 8px!important;
+    font-size:.88rem!important;
+    line-height:1.2!important;
+    text-align:center!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] p{
+    width:100%!important;
+    max-width:300px!important;
+    margin:0 auto!important;
+    font-size:.70rem!important;
+    line-height:1.32!important;
+    text-align:left!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] #closeModal{
+    position:absolute!important;
+    right:22px!important;
+    top:94px!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] .doodle-a{
+    left:42px!important;
+    top:218px!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] .doodle-b{
+    right:42px!important;
+    top:218px!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] .doodle-c{
+    bottom:73px!important;
+  }
+}
+
+@media (max-width: 390px){
+  .modal-card.letter-paper[data-letter="4"]{
+    min-height:660px!important;
+    padding:195px 52px 140px!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] h3{
+    max-width:275px!important;
+    font-size:.84rem!important;
+  }
+  .modal-card.letter-paper[data-letter="4"] p{
+    max-width:275px!important;
+    font-size:.67rem!important;
+    line-height:1.30!important;
+  }
+}
