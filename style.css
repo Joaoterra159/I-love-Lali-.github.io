@@ -1840,3 +1840,20 @@ button:focus-visible,a:focus-visible{outline:3px solid #f3ce68;outline-offset:3p
     object-position:center!important;
   }
 }
+
+/* V61 — carta-coração: corpo mais compacto para respeitar as curvas inferiores no mobile */
+@media (max-width: 640px){
+  .modal-card.letter-paper[data-letter="4"] p{
+    max-width:248px!important;
+    font-size:.635rem!important;
+    line-height:1.24!important;
+    letter-spacing:-.01em!important;
+  }
+}
+@media (max-width: 390px){
+  .modal-card.letter-paper[data-letter="4"] p{
+    max-width:232px!important;
+    font-size:.605rem!important;
+    line-height:1.22!important;
+  }
+}
